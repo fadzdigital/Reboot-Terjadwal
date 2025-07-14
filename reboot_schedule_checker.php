@@ -7,8 +7,8 @@ $last_file = __DIR__ . '/last_reboot.txt';
 
 // --- FUNGSI KIRIM TELEGRAM ---
 /**function kirimTelegram($pesan) {
-    $bot_token = '8107356011:AAEFF5ZnTata2txInZ66DOA5TmVu4PMAvlo';
-    $chat_id = '6243379861';
+    $bot_token = '8107356011';
+    $chat_id = '6243';
     $pesan = urlencode($pesan);
     $url = "https://api.telegram.org/bot$bot_token/sendMessage?chat_id=$chat_id&text=$pesan&parse_mode=Markdown";
     $res = @file_get_contents($url);
